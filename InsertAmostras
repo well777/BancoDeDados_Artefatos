@@ -1,0 +1,27 @@
+INSERT INTO DNA_Samples
+(sample_code, common_name, scientific_name, tissue_type, collection_date, collection_location, collector, storage_temp, dna_concentration_ngul, extraction_method, sequencing_status, project, notes)
+VALUES
+('SMP-PRI-001','Macaco-prego','Sapajus spp.','sangue','2024-03-12','Reserva Biológica X, Brasil','Dra. Ana Costa','-80°C',52.30,'Qiagen DNeasy','not sequenced','PrimatasGenetic','juvenil, amostra A'),
+('SMP-PRI-002','Sagui','Callithrix jacchus','pelagem','2024-05-21','Mata Atlântica, Brasil','Dr. João Lima','-80°C',18.50,'Phenol-Chloroform','mtDNA sequenced','PrimatasGenetic','amostra do dorso'),
+('SMP-CAR-001','Onça-pintada','Panthera onca','músculo','2023-11-08','Amazonas, BR','Equipe FaunaAM','-80°C',75.10,'Qiagen DNeasy','WGS done','CarnivoraConserv','indivíduo adulto, estoque'),
+('SMP-CAR-002','Cão-do-mato','Cerdocyon thous','swab bucal','2025-01-10','Cerrado, BR','Maria Souza','-20°C',12.00,'Chelex 100','not sequenced','CarnivoraSurvey','amostra não invasiva'),
+('SMP-ROC-001','Rato-do-campo','Rattus norvegicus','sangue','2024-07-02','Zona rural, SP, BR','Lab EcoGen','-80°C',23.45,'Qiagen DNeasy','not sequenced','RodentiaPanel','coleta com armadilha viva'),
+('SMP-CHI-001','Morcego-frugívoro','Artibeus lituratus','pelagem','2024-09-18','Ilha X, BR','Núcleo Chirop','-80°C',9.80,'Salting-Out','COI barcoded','BatBarcode','amostra de asa'),
+('SMP-MAR-001','Gambá','Didelphis marsupialis','pelle','2024-04-05','Mata urbana, PA, BR','Equipe MamíferosU','-80°C',35.60,'Qiagen DNeasy','not sequenced','MarsupialStudy','animal solto após coleta'),
+('SMP-CET-001','Boto-cor-de-rosa','Inia geoffrensis','sangue','2023-08-12','Rio Amazonas, AM, BR','Projeto Botos','-80°C',68.90,'Qiagen Blood Kit','WGS done','CetaceanGen','amostra de adulto macho'),
+('SMP-UNG-001','Anta','Tapirus terrestris','músculo','2024-10-30','Parque Nacional Y, BR','Equipe Fauna','-80°C',42.70,'Phenol-Chloroform','not sequenced','MegafaunaCons','animal faixa etária média'),
+('SMP-UNG-002','Veado-campeiro','Ozotoceros bezoarticus','sangue','2024-06-15','Pampa, RS, BR','Dr. Pedro Alvarez','-80°C',28.00,'Qiagen DNeasy','SNP panel done','UngulateStudy','amostra para genotipagem'),
+('SMP-ELE-001','Elefante-africano','Loxodonta africana','pelagem','2022-12-01','Reserva Safari, ZA','ConservAfrica','-80°C',15.20,'Chelex 100','mtDNA sequenced','ElephantPhylo','amostra de cativeiro'),
+('SMP-PRI-003','Gorila','Gorilla gorilla','sangue','2021-05-10','Parque Zoológico, UK','Zoonet UK','-80°C',80.00,'Qiagen DNeasy','WGS done','GreatApeCons','amostra de rotina veterinária'),
+('SMP-ROD-002','Castor','Castor canadensis','músculo','2024-02-28','Lago X, CA','Lab Wildlife','-80°C',49.50,'Phenol-Chloroform','not sequenced','RodentiaPanel','amostra de controle'),
+('SMP-CAR-003','Lobo-guará','Chrysocyon brachyurus','sangue','2023-03-14','Cerrado, GO, BR','Projeto Lobo','-80°C',33.10,'Qiagen Blood Kit','not sequenced','CarnivoraConserv','animal juvenil'),
+('SMP-CHI-002','Morcego-insetívoro','Myotis spp.','swab bucal','2024-11-05','Caverna Z, BR','BatTeam','-80°C',6.50,'Salting-Out','COI barcoded','BatBarcode','quantidade baixa'),
+('SMP-MAR-002','Canguru','Macropus rufus','pelagem','2020-07-20','Outback, AU','WildAU','-20°C',22.00,'Qiagen DNeasy','not sequenced','MarsupialStudy','amostra de cativeiro'),
+('SMP-PRI-004','Lêmure','Lemur catta','sangue','2024-01-19','Madagascar, MG','FieldMadagascar','-80°C',29.40,'Phenol-Chloroform','not sequenced','PrimatesIsland','amostra de campo'),
+('SMP-ART-001','Baleia-jubarte','Megaptera novaeangliae','sangue','2023-02-02','Oceano Atlântico, BR','MarineLab','-80°C',95.10,'Qiagen Blood Kit','WGS done','CetaceanGen','amostra coletada por biopsia'),
+('SMP-UNG-003','Búfalo','Bubalus bubalis','sangue','2025-02-01','Fazenda X, BR','Dr. Carla Reis','-80°C',40.00,'Qiagen DNeasy','SNP panel done','LivestockRef','amostra de rebanho'),
+('SMP-ROC-003','Porco-espinho','Erethizon dorsatum','pelagem','2024-08-09','Região temperada, CA','WildTeam','-80°C',11.75,'Chelex 100','not sequenced','RodentiaPanel','amostra superficial'),
+('SMP-CAR-004','Tigre','Panthera tigris','músculo','2019-09-15','Reserva Ásia, IN','ConservAsia','-80°C',65.30,'Phenol-Chloroform','WGS done','BigCatsCons','amostra histórica de banco'),
+('SMP-CHI-003','Morcego-nariz-de-folha','Phyllostomus hastatus','pelagem','2024-12-12','Floresta X, BR','BatTeam','-80°C',8.20,'Salting-Out','not sequenced','BatBarcode','adulto fêmea'),
+('SMP-PRI-005','Orangotango','Pongo pygmaeus','sangue','2022-04-03','Sumatra, ID','Zoonet ID','-80°C',72.60,'Qiagen DNeasy','WGS done','GreatApeCons','amostra clinica'),
+('SMP-ROC-004','Coelho-europeu','Oryctolagus cuniculus','sangue','2025-03-05','Zona rural, PT','LabVetPT','-80°C',25.90,'Qiagen DNeasy','not sequenced','RodentiaPanel','amostra de laboratório');
