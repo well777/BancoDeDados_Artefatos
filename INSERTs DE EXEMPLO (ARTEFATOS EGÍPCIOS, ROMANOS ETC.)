@@ -1,0 +1,19 @@
+INSERT INTO Categorias (nome, descricao) VALUES
+('Egípcio', 'Artefatos do Egito Antigo'),
+('Romano', 'Artefatos do Império Romano'),
+('Grego', 'Artefatos da Grécia Antiga'),
+('Medieval', 'Artefatos da Idade Média'),
+('Moedas Antigas', 'Moedas históricas diversas');
+
+INSERT INTO Fornecedores (nome, pais, contato, telefone, email) VALUES
+('Museu de Alexandria', 'Egito', 'Dr. Khaled Saad', '+20 11223344', 'contato@museualex.eg'),
+('Colecionador Marco Antonius', 'Itália', 'Marco A.', '+39 998877', 'marco@antonius.it'),
+('Instituto Arqueológico Helênico', 'Grécia', 'Eleni Papadopoulos', '+30 223344', 'eleni@helarch.gr');
+
+INSERT INTO Artefatos (nome, descricao, origem, ano_estimado, preco, estado_conservacao, id_categoria, id_fornecedor, data_aquisicao)
+VALUES
+('Estátua de Bastet', 'Peça ritualística da deusa Bastet', 'Egito', -450, 15000.00, 'Excelente', 1, 1, '2024-02-12'),
+('Máscara Funerária', 'Máscara de nobre egípcio', 'Egito', -300, 34000.00, 'Restaurado', 1, 1, '2023-11-10'),
+('Gládio Romano', 'Espada curta utilizada por legionários', 'Roma', 50, 12000.00, 'Bom', 2, 2, '2024-07-01'),
+('Anfora Grega Decorada', 'Anfora com pintura de cenas do olimpo', 'Grécia', -500, 18000.00, 'Excelente', 3, 3, '2024-03-10'),
+('Moeda de Alexandre, o Grande', 'Moeda de prata com o rosto de Alexandre', 'Macedônia', -330, 4500.00, 'Boa', 5, 3, '2024-06-21');
